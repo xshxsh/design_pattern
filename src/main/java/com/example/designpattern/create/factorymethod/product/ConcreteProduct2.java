@@ -1,9 +1,9 @@
-package com.example.designpattern.create.factorymethod;
+package com.example.designpattern.create.factorymethod.product;
 
 /**
  * 具体产品2
  */
-class ConcreteProduct2 implements Product {
+public class ConcreteProduct2 implements Product {
     @Override
     public void show() {
         System.out.println("具体产品2显示...");

@@ -1,5 +1,8 @@
 package com.example.designpattern.create.factorymethod;
 
+import com.example.designpattern.create.factorymethod.factory.Factory;
+import com.example.designpattern.create.factorymethod.product.Product;
+
 public class Application {
     public static void main(String[] args) {
         Factory factory = new Factory();

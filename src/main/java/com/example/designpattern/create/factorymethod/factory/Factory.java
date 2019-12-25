@@ -1,4 +1,9 @@
-package com.example.designpattern.create.factorymethod;
+package com.example.designpattern.create.factorymethod.factory;
+
+
+import com.example.designpattern.create.factorymethod.product.ConcreteProduct1;
+import com.example.designpattern.create.factorymethod.product.ConcreteProduct2;
+import com.example.designpattern.create.factorymethod.product.Product;
 
 /**
  * 工厂接口
