@@ -1,0 +1,3 @@
+1、被代理的类需要实现某个接口
+2、代理某个方法需要实现InvocationHandler接口
+3、通过Proxy.newProxyInstance生成代理对象
