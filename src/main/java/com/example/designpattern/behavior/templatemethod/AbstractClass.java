@@ -1,4 +1,4 @@
-package com.example.designpattern.behavior.template;
+package com.example.designpattern.behavior.templatemethod;
 
 public abstract class AbstractClass {
 
