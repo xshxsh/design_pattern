@@ -28,4 +28,4 @@
 其中有些业务对各个学校是一样的，但有些业务因学校不同而不同，所以比较适合用模板方法模式来实现。
 2. spring 中对 Hibernate 的支持，将一些已经定好的方法封装起来，比如开启事务、获取 Session、关闭 Session 等，
 程序员不重复写那些已经规范好的代码，直接丢一个实体就可以保存。
-3. spring的JdbcTemplate
+3. spring的JdbcTemplate  
