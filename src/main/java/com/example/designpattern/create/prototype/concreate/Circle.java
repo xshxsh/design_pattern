@@ -3,7 +3,7 @@ package com.example.designpattern.create.prototype.concreate;
 import com.example.designpattern.create.prototype.interfac.Shape;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-20 15:26
  * description:具体原型-圆形
  */

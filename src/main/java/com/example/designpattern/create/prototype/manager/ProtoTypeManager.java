@@ -6,7 +6,7 @@ import com.example.designpattern.create.prototype.interfac.Shape;
 import java.util.HashMap;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-20 15:32
  * description:原型 管理器
  */

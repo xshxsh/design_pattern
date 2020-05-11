@@ -5,7 +5,7 @@ import com.example.designpattern.custompattern.strategyfactory.factory.Factory;
 import org.springframework.beans.factory.InitializingBean;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-2 16:10
  * description: 具体策略1
  */

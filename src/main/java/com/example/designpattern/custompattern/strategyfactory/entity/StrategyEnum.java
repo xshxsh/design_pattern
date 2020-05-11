@@ -1,7 +1,7 @@
 package com.example.designpattern.custompattern.strategyfactory.entity;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-3 9:41
  * description:策略枚举类
  */

@@ -3,7 +3,7 @@ package com.example.designpattern.behavior.strategy.context;
 import com.example.designpattern.behavior.strategy.stategy.Strategy;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-2 16:11
  * description:环境类
  */

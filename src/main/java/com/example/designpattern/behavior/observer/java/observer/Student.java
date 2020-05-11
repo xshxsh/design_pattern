@@ -4,7 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2019-12-25 14:47
  * description:观察者
  */

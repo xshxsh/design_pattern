@@ -4,7 +4,7 @@ import com.example.designpattern.structure.adapter.chinainterface.ChinaInterface
 import com.example.designpattern.structure.adapter.germanyinterface.GermanyInterface;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-17 16:38
  * description:电源适配器插座，兼容中国标准和德国标准
  */

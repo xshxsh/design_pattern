@@ -5,7 +5,7 @@ import com.example.designpattern.behavior.strategy.stategy.ConcreteStrategy1;
 import com.example.designpattern.behavior.strategy.stategy.ConcreteStrategy2;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2019-12-25 11:49
  * description:
  */

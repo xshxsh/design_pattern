@@ -1,7 +1,7 @@
 package com.example.designpattern.behavior.strategy.stategy;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-2 16:10
  * description: 具体策略1
  */

@@ -4,7 +4,7 @@ import com.example.designpattern.behavior.observer.java.observer.Student;
 import com.example.designpattern.behavior.observer.java.subject.Teacher;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2019-12-25 11:49
  * description:使用java已经实现的接口和类实现观察者模式
  */

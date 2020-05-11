@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-3 9:22
  * description:策略工厂，用于保存和过去策略
  */

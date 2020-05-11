@@ -4,7 +4,7 @@ import com.example.designpattern.structure.facade.subsystem.SubSystem01;
 import com.example.designpattern.structure.facade.subsystem.SubSystem03;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-19 15:58
  * description:具体外观角色
  */

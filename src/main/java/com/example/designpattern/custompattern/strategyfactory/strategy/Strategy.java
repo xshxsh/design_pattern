@@ -1,7 +1,7 @@
 package com.example.designpattern.custompattern.strategyfactory.strategy;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2020-1-3 9:20
  * description:策略接口
  */

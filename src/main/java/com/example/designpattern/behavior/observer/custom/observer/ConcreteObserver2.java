@@ -3,7 +3,7 @@ package com.example.designpattern.behavior.observer.custom.observer;
 import com.example.designpattern.behavior.observer.custom.subject.Subject;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2019-12-25 11:18
  * description:具体观察者1
  */

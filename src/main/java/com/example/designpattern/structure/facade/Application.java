@@ -4,7 +4,7 @@ import com.example.designpattern.structure.facade.facade.ConcreteFacade1;
 import com.example.designpattern.structure.facade.facade.Facade;
 
 /**
- * @author 谢仕海
+ * @author xsh
  * @date : 2019-12-25 11:49
  * description:
  */
