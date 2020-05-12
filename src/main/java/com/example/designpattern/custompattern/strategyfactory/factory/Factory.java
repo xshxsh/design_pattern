@@ -1,5 +1,8 @@
 package com.example.designpattern.custompattern.strategyfactory.factory;
 
+import com.example.designpattern.custompattern.strategyfactory.entity.StrategyEnum;
+import com.example.designpattern.custompattern.strategyfactory.strategy.ConcreteStrategy1;
+import com.example.designpattern.custompattern.strategyfactory.strategy.ConcreteStrategy2;
 import com.example.designpattern.custompattern.strategyfactory.strategy.Strategy;
 
 import java.util.Map;
@@ -15,6 +18,14 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Factory {
 
     private static Map<String, Strategy> factory = new ConcurrentHashMap<>();
+
+    /**
+     * 生产策略产品
+     */
+    static {
+        factory.put(StrategyEnum.CONCRETESTRATEGY1.getStrategyName(), new ConcreteStrategy1());
+        factory.put(StrategyEnum.CONCRETESTRATEGY2.getStrategyName(), new ConcreteStrategy2());
+    }
 
     /**
      * 获取策略

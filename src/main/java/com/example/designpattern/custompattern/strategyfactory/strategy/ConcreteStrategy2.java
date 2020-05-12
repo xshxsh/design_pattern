@@ -1,9 +1,5 @@
 package com.example.designpattern.custompattern.strategyfactory.strategy;
 
-import com.example.designpattern.custompattern.strategyfactory.entity.StrategyEnum;
-import com.example.designpattern.custompattern.strategyfactory.factory.Factory;
-import org.springframework.beans.factory.InitializingBean;
-
 /**
  * @author xsh
  * @date : 2020-1-2 16:10
@@ -11,7 +7,7 @@ import org.springframework.beans.factory.InitializingBean;
  */
 
 
-public class ConcreteStrategy2 implements Strategy, InitializingBean {
+public class ConcreteStrategy2 implements Strategy {
     /**
      * 策略方法
      */
@@ -20,8 +16,4 @@ public class ConcreteStrategy2 implements Strategy, InitializingBean {
         System.out.println("具体策略2的执行方法");
     }
 
-    @Override
-    public void afterPropertiesSet() throws Exception {
-        Factory.register(StrategyEnum.CONCRETESTRATEGY2.getStrategyName(), this);
-    }
 }
