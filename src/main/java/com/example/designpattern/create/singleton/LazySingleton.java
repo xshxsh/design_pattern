@@ -3,7 +3,7 @@ package com.example.designpattern.create.singleton;
 
 /**
  * 线程安全的懒汉单例模式
- * 该模式的特点是类加载时没有生成单例，只有当第一次调用 getlnstance 方法时才去创建这个单例。
+ * 该模式的特点是类加载时没有生成单例，只有当第一次调用 getInstance 方法时才去创建这个单例。
  */
 public class LazySingleton {
 
