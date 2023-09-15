@@ -12,12 +12,12 @@ public abstract class RefinedCar extends Car {
     @Override
     public void getFeature() {
         this.brand.getBrand();
-        System.out.println(getFeature());
+        System.out.println(extendMethod());
     }
 
     /**
      * 拓展方法：车的特性
      */
-    public abstract String getFeature();
+    public abstract String extendMethod();
 
 }
