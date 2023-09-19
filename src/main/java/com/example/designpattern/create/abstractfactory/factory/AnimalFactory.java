@@ -8,7 +8,7 @@ import com.example.designpattern.create.abstractfactory.plant.Plant;
 /**
  * 具体工厂1,只养动物
  */
-public class AnimalFactory extends  AbstractFactory {
+public class AnimalFactory extends AbstractFactory {
     @Override
     public Animal getAnimal(String type) {
         if ("cow".equals(type)) {

@@ -1,14 +1,14 @@
 package com.example.designpattern.create.abstractfactory.factory;
 
 import com.example.designpattern.create.abstractfactory.animal.Animal;
-import com.example.designpattern.create.abstractfactory.plant.Plant;
 import com.example.designpattern.create.abstractfactory.plant.ApplePlant;
 import com.example.designpattern.create.abstractfactory.plant.BananaPlant;
+import com.example.designpattern.create.abstractfactory.plant.Plant;
 
 /**
  * 具体工厂2,只种植物
  */
-public class PlantFactory extends  AbstractFactory {
+public class PlantFactory extends AbstractFactory {
 
     @Override
     public Animal getAnimal(String type) {

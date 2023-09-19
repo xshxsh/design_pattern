@@ -13,16 +13,9 @@ public class CglibProxy implements MethodInterceptor {
         this.target = target;
     }
 
-    @Override
-    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        System.out.println("###   before invocation");
-        Object result = method.invoke(target, objects);
-        System.out.println("###   end invocation");
-        return result;
-    }
-
     /**
      * 生成代理对象
+     *
      * @param target
      * @return
      */
@@ -36,5 +29,13 @@ public class CglibProxy implements MethodInterceptor {
         // 创建代理对象
         Object proxy = enhancer.create();
         return proxy;
+    }
+
+    @Override
+    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+        System.out.println("###   before invocation");
+        Object result = method.invoke(target, objects);
+        System.out.println("###   end invocation");
+        return result;
     }
 }

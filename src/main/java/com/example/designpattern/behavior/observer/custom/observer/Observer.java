@@ -11,7 +11,7 @@ import com.example.designpattern.behavior.observer.custom.subject.Subject;
 
 public abstract class Observer {
 
-   protected Subject subject;
+    protected Subject subject;
 
     /**
      * 观察者发现目标作出改变后进行的响应动作
