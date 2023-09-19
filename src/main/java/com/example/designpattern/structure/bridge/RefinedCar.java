@@ -1,7 +1,7 @@
 package com.example.designpattern.structure.bridge;
 
 /**
- * 一个“修正”的抽象类
+ * 拓展类，如果需要其他公共功能，可以在此类操作
  */
 public abstract class RefinedCar extends Car {
 

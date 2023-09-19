@@ -10,7 +10,7 @@ public class Car1 extends Car {
 
     @Override
     public void getFeature() {
-        System.out.println("跑车跑得快");
+        System.out.println(this.brand.getBrand()+"跑车跑得快");
     }
 
 

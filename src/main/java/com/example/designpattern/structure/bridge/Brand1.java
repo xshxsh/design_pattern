@@ -7,7 +7,7 @@ package com.example.designpattern.structure.bridge;
 public class Brand1 implements Brand {
 
     @Override
-    public void getBrand() {
-        System.out.println("奥迪");
+    public String getBrand() {
+        return "奥迪";
     }
 }

@@ -9,5 +9,5 @@ public interface Brand {
     /**
      * 获取品牌信息
      */
-    void getBrand();
+    String getBrand();
 }
