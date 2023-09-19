@@ -2,6 +2,7 @@ package com.example.designpattern.structure.bridge;
 
 /**
  * 车抽象类
+ * 车引用了品牌，此处是组合关系
  */
 public abstract class Car {
 
