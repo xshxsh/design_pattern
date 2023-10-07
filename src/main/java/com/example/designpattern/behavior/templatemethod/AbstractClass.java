@@ -11,7 +11,7 @@ public abstract class AbstractClass {
 
     //具体方法
     public void SpecificMethod() {
-        System.out.println("抽象类中的具体方法被调用...");
+        System.out.println("公共方法");
     }
 
     //抽象方法1
