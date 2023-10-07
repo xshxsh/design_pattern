@@ -19,7 +19,9 @@ public class Teacher extends Observable {
 
     public void introduce() {
         System.out.println("我是" + name + "老师");
+        // 状态发生改变
         super.setChanged();
+        // 通知观察者
         super.notifyObservers(name);
     }
 
