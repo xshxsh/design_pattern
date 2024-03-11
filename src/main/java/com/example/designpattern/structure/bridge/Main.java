@@ -1,8 +1,8 @@
 package com.example.designpattern.structure.bridge;
 
 /**
- * @author 谢仕海
- * @email xieshihai@aulton.com
+ 
+ 
  * @date 2023/9/6 11:11
  * @Copyright Copyright (c)  aulton Inc. All Rights Reserved.
  **/

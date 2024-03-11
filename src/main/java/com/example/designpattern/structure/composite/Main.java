@@ -1,8 +1,8 @@
 package com.example.designpattern.structure.composite;
 
 /**
- * @author 谢仕海
- * @email xieshihai@aulton.com
+ 
+ 
  * @date 2023/9/19 15:32
  * @Copyright Copyright (c)  aulton Inc. All Rights Reserved.
  **/

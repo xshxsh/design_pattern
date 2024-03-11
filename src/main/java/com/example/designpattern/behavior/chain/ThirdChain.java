@@ -3,8 +3,8 @@ package com.example.designpattern.behavior.chain;
 /**
  * 第三级审核 总经理
  *
- * @author 谢仕海
- * @email xieshihai@aulton.com
+ 
+ 
  * @date 2024/3/6 17:01
  * @Copyright Copyright (c)  aulton Inc. All Rights Reserved.
  **/

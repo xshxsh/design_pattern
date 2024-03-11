@@ -1,8 +1,8 @@
 package com.example.designpattern.behavior.chain;
 
 /**
- * @author 谢仕海
- * @email xieshihai@aulton.com
+ 
+ 
  * @date 2024/3/6 17:08
  * @Copyright Copyright (c)  aulton Inc. All Rights Reserved.
  **/
