@@ -1,10 +1,10 @@
 package com.example.designpattern.behavior.mediator;
 
 /**
- * 具体中介
+ * 具体中介：中介须知道所有房主和租房者的信息
  */
 public class MediatorStructure extends Mediator {
-    //中介须知道所有房主和租房者的信息
+
     private HouseOwner houseOwner;
     private Tenant tenant;
 
